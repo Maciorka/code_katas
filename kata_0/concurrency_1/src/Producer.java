@@ -1,6 +1,6 @@
 package ProducerConsumer;
 
-import java.awt.List;
+import java.util.List;
 import java.util.ArrayList;
 
 class Producer implements Runnable
@@ -13,10 +13,6 @@ class Producer implements Runnable
       this.taskQueue = sharedQueue;
       this.MAX_CAPACITY = size;
    }
- 
-   public Producer(ArrayList<Integer> taskQueue, int mAX_CAPACITY2) {
-	// TODO Auto-generated constructor stub
-}
 
 @Override
    public void run()
